@@ -1,0 +1,9 @@
+Ref:
+- Se usa para crear una referencia reactiva para valores primitivos u objetos.
+- Devuelve un objeto con una propiedad .value que es reactiva.
+- Ideal para valores únicos y primitivos.
+
+Reactive:
+- Se usa para crear un objeto reactivo.
+- Devuelve un proxy reactivo que actúa como un objeto normal pero sus propiedades son reactivas.
+- Ideal para objetos complejos y con múltiples propiedades.
