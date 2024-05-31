@@ -12,11 +12,11 @@ import { reactive } from "vue";
 export default {
   setup() {
     const user = reactive({
-      name: "John Doe",
+      name: "Francisco Chavajay",
     });
 
     const changeName = () => {
-      user.name = "Jane Doe";
+      user.name = "Francisco Chavajay";
     };
 
     return { user, changeName };
