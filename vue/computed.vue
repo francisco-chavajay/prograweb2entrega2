@@ -10,8 +10,8 @@
   
   export default {
     setup() {
-      const firstName = ref('John');
-      const lastName = ref('Doe');
+      const firstName = ref('Francisco');
+      const lastName = ref('Chavajay');
   
       const fullName = computed(() => `${firstName.value} ${lastName.value}`);
   
